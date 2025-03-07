@@ -4,7 +4,7 @@ FROM openjdk:17-jdk-alpine
 ARG JAR_FILE=target/*.jar
 
 # Copy the JAR file into the container
-COPY ./target/orchestration-service-0.0.1-SNAPSHOT.jar app.jar
+COPY ./target/orchestration-service-0.0.1-SNAPSHOT.jar app.jar 
 
 # Run the JAR file when the container starts
 ENTRYPOINT ["java", "-jar", "/app.jar"]
