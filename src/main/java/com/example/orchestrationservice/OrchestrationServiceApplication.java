@@ -16,7 +16,7 @@ public class OrchestrationServiceApplication {
 	}
 	@GetMapping("/")
 	public String home(){
-		return "Hello from Orchestration and Deployment Management Microservice!";
+		return "Hello from Orchestration and Deployment Management Microservice!!";
 	}
 }
 
