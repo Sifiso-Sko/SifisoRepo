@@ -30,7 +30,7 @@ jobs:
 
       # Step 4: Build with Maven
       - name: Build with Maven
-        run: mvn clean install -DskipTests  # Build the project using Maven, skipping tests to speed up the build
+        run: mvn clean install -DskipTests -e # Build the project using Maven, skipping tests to speed up the build
 
       # Step 5: Run JUnit tests
       - name: JUnit tests
