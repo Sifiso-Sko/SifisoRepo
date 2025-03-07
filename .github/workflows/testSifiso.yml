@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - F1-1 # Trigger the workflow when changes are pushed to the F1 branch
-
+ 
 jobs:
   build-and-check:
     runs-on: ubuntu-latest  # Run the job on the latest Ubuntu environment
