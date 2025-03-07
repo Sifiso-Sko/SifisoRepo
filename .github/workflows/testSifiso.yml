@@ -34,7 +34,7 @@ jobs:
 
       # Step 5: Run JUnit tests
       - name: JUnit tests
-        run: mvn test -e # Run the tests using Maven
+        run: mvn test  # Run the tests using Maven
 
 
         
