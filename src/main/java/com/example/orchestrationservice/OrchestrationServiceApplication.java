@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class OrchestrationServiceApplication {
 
-	public static void mai(String[] args) {
+	public static void main(String[] args) {
          SpringApplication.run(OrchestrationServiceApplication.class, args);
 
 	}
