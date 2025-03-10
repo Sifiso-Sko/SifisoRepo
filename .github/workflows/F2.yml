@@ -4,7 +4,7 @@ name: CI with Checkstyle
 on:
   push:
     branches:
-      - F1-1 # Trigger the workflow when changes are pushed to the F1 branch
+      - F2 # Trigger the workflow when changes are pushed to the F1 branch
  
 jobs:
   build-and-check:
